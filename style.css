@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Michroma&family=Poppins:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    background-color: #ECF0F3;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.name{
+    flex: 1;
+}
+
+.nav-item{
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.greeting{
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    
+    
+}
+.left{
+    
+    flex: 1;
+}
+
+.myname{
+    color: #FF014F;
+
+}
+
+.new-profession{
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+.right{
+
+    max-height: 400px;
+    object-fit: contain;
+    flex: 0;
+    margin-left: -20%;
+    
+}
+
+.description{
+    width: 60%;
+}
