@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const profession = document.getElementById("profession");
     const newprofession = document.getElementById("new-profession"); 
-    const jobs = ["  Developer"];
+    const jobs = ["Creator"];
     const writing_speed = 250;
     let jobIndex = 0;
     let charIndex = 0;
